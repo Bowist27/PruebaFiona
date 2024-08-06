@@ -33,5 +33,5 @@ void loop() {
     Serial.println("Ventilador desactivado");
   }
 
-  delay(8000);  // Espera de 1 segundo entre lecturas de temperatura
+  delay(200000);  // Espera de 1 segundo entre lecturas de temperatura
 }
