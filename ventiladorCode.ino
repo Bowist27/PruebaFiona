@@ -30,7 +30,7 @@ void loop() {
     Serial.println("Ventilador activado");
   } else {
     digitalWrite(relayPin, LOW);    // Desactivar el ventilador
-    Serial.println("Ventilador desactivado");
+    Serial.println("Ventilador  Muy desactivado");
   }
 
   delay(200000);  // Espera de 1 segundo entre lecturas de temperatura
